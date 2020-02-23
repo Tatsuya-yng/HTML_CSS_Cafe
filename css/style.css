@@ -9,9 +9,16 @@ html * {
 }
 
 
+
 body {
+	margin: 0 0 0 0;
 	background-color: #eeece9;
 }
+.wrapper {
+	margin: 0 auto 0 auto;
+	max-width: 960px;
+}
+
 
 
 h2 {
@@ -29,9 +36,11 @@ h2 {
 }
 
 
+
 p {
 	line-height: 1.6;
 }
+
 
 
 a:link {
@@ -46,3 +55,61 @@ a:hover {
 a:active {
 	color: #ff6a3b;
 }
+
+
+
+/* 全てのページに適用 - ヘッダー - */
+.logo {
+	margin: 50px 0 40px 0;
+	line-height: 0;
+	text-align: center; 
+}
+
+
+
+.nav li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 30px;
+}
+
+
+.nav ul {
+	margin: 0 0 0 0;
+	padding: 20px 10px 15px 20px;
+	background-image: url(../images/menu-bg.png);
+	background-repeat: repeat-x;
+}
+
+
+
+.nav a:link {
+	color: #3c454d;
+	text-decoration: none;
+}
+.nav a:visited {
+	color: #3c454d;
+	text-decoration: none;
+}
+.nav a:hover {
+	color: #7b8dac;
+	text-decoration: none;
+}
+.nav a:active {
+	color: #5a9bc0;
+	text-decoration: none;
+}
+
+
+
+/* 全てのページに適用 - フッター - */
+.footer {
+	background-image: url(../images/footer-bg.png);
+	background-repeat: no-repeat;
+	margin-top: 30px;
+	padding: 80px 15px 20px 15px;
+	font-size: 12px;
+	color: #3f5170;
+}
+
+
