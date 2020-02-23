@@ -1,1 +1,48 @@
-charset "UTF-8";
+@charset "UTF-8";
+
+/*全てのWebページに適用される*/
+html {
+	font-family: sans-serif;
+}
+html * {
+	box-sizing: border-box;
+}
+
+
+body {
+	background-color: #eeece9;
+}
+
+
+h2 {
+	color: #3f5170;
+	font-size: 22px;
+	border-bottom: 3px dotted #3f5170;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom:20px;
+	margin-left: 0px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+
+p {
+	line-height: 1.6;
+}
+
+
+a:link {
+	color: #d25833;
+}
+a:visited {
+	color: #d25833;
+}
+a:hover {
+	color: #e3937a;
+}
+a:active {
+	color: #ff6a3b;
+}
