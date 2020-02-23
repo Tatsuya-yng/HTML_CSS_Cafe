@@ -113,3 +113,23 @@ a:active {
 }
 
 
+
+/* 個別のスタイル */
+/* index.html */
+.keyvisual {
+	margin: 15px 0 0 0;
+	}
+.news-item {
+	margin: 0;
+}
+
+
+
+/* about.html */
+.shop-photo {
+	float: left;
+	padding: 0 1em 1em 0;
+}
+.clear {
+	claer: both;
+}
