@@ -176,3 +176,25 @@ a:active {
 .map {
 	text-align: center;
 }
+
+
+
+/* contact.html */
+form div {
+	padding: 12px;
+	border-bottom: 1px dashed #bec2c7;
+}
+select {
+	width: 30em;
+}
+input[name="subject"] {
+	width: 30em;
+}
+textarea {
+	width: 30em;
+	height: 6em;
+}
+input[type="submit"] {
+	margin: 20px 0;
+	width: 30em;
+}
